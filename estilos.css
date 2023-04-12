@@ -1,0 +1,246 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+.logo img{
+    width: 190px;
+    padding-right: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    color: #654D8B;
+}
+.menu a:hover{
+    color: #3FFF77;
+}
+.social-media i{
+    font-size: 22px;
+    color: #654D8B;
+    padding: 3px;
+}
+.search-bar i{
+    font-size: 22px;
+    color: #654D8B;
+    padding: 3px;
+}
+.social-media i:hover{
+    color: #3FFF77;
+}
+.search-bar i:hover{
+    color: #3FFF77;
+}
+/* Estado del Servicio */
+.tituloEstado h3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #654D8B;
+    padding: 10px;
+}
+.lineas div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lineas img{
+    width: 65px;
+}
+.lineas span{
+    text-transform: uppercase;
+    color: grey;
+    padding-top: 15px;
+}
+.presentation{
+    text-align: center;
+    color: #3c2373;
+    /* margin-top: 100px; */
+    font-family: 'Roboto', sans-serif;
+}
+.presentation h1{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 61px;
+    margin-top: 70px;
+}
+.presentation h2{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    padding: 40px;
+    align-items: center;
+}
+.help-section{
+    background-color: #3c2373;
+    height: 500px;
+    text-align: center;
+    color: #ffffff;
+}
+.help-section h2{
+    padding: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    font-family: 'Roboto', sans-serif;
+}
+.help-section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+/* .help-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.help-detail .col div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.help-detail a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.fa-map,
+.fa-clock,
+.fa-credit-card,
+.fa-heart{
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+} */
+.help-detail{
+    padding: 50px;
+}
+.custom-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-class a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:bolder;
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.custom-class a:hover{
+    color: #3FFF77;
+}
+.fa-map,
+.fa-clock,
+.fa-credit-card,
+.fa-heart{
+    font-size: 45px;
+    margin: 5px;
+    padding: 10px;
+}
+.custom-class i:hover{
+    color: #3FFF77;
+}
+
+.accesibilidad{
+    background-color: #5AFF81;
+    height: 300px;
+    padding-top: 50px;
+}
+.accesibilidad h2, p{
+    color: #3c2373;
+    padding-top: 10px;
+}
+.accesibilidad h2{
+    text-transform: uppercase;
+    text-align: right;
+}
+.accesibilidad p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+}
+.accesibilidad button{
+    background-color: #3c2373;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.accesibilidad button:hover{
+    background-color: #ffffff;
+    color: #3c2373;
+}
+/* Footer */
+.footer{
+    background-color: #3c2373;
+    height: 600px;
+}
+.footer p{
+    color: #ffffff;
+}
+.footer i{
+    font-size: 20px;
+}
+.social-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-footer a{
+    background-color: #ffffff;
+    padding: 4px 7px;
+    border-radius: 20px;
+    color: #3c2373;
+    margin: 8px;
+}
+.copyright-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    background-color: #76758C;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;/* 
+    align-content: center; */
+}
+.copyright p{
+    color: #b8b7b7;
+}
